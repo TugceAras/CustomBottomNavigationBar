@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourthScreen"
+    android:background="#c4c4c4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="150dp"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:text="Fourth Screen"/>
+
+    <Button
+        android:id="@+id/fourthButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Go To Fifth Screen"/>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/fourthAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:fabCradleRoundedCornerRadius="50dp"
+        app:fabCradleMargin="10dp"
+        app:backgroundTint="@color/white"
+        >
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/fourthNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/menu_without_title"
+            android:background="@android:color/transparent"
+            android:layout_marginEnd="14dp"
+            app:itemIconTint="@color/bottom_item_color"
+            app:itemTextColor="@color/bottom_item_color"
+            app:labelVisibilityMode="unlabeled"
+            />
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fourthFloatingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/fourthAppBar"
+        android:src="@drawable/add_icon"
+        app:backgroundTint="@color/white"
+        android:contentDescription="Fourth Floating Button"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

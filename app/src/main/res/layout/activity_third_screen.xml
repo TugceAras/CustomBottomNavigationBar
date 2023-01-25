@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdScreen"
+    android:background="#c4c4c4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="150dp"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:text="Third Screen"/>
+
+    <Button
+        android:id="@+id/thirdButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Go To Fourth Screen"/>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/thirdAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:fabCradleRoundedCornerRadius="50dp"
+        app:fabCradleMargin="10dp"
+        app:backgroundTint="@color/white"
+        >
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/thirdNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/menu"
+            android:background="@android:color/transparent"
+            android:layout_marginEnd="13dp"
+            app:labelVisibilityMode="labeled"
+            app:itemIconTint="@color/bottom_item_color"
+            app:itemTextColor="@color/bottom_item_color"/>
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/thirdFloatingButton"
+        android:backgroundTint="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add_icon"
+        app:layout_anchor="@id/thirdAppBar"
+        android:contentDescription="Third Floating Button"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
