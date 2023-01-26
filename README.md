@@ -1,6 +1,8 @@
 # <p align="center"> Custom Bottom Navigation Bar :sparkles: </p>
 
-https://user-images.githubusercontent.com/79931228/214648526-fc2e1959-25bd-441c-afd0-7f0ad05d9386.mp4
+<div align="center">
+  <video src="https://user-images.githubusercontent.com/79931228/214648526-fc2e1959-25bd-441c-afd0-7f0ad05d9386.mp4"/>
+</div>
 
 ## 👇 Use This In XML
 - BottomAppBar
