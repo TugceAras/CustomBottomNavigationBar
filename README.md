@@ -1,16 +1,18 @@
 # <p align="center"> Custom Bottom Navigation Bar :sparkles: </p>
 
+<!-- Video -->
 <div align="center">
   <video src="https://user-images.githubusercontent.com/79931228/214648526-fc2e1959-25bd-441c-afd0-7f0ad05d9386.mp4"/>
 </div>
 
+<!-- Add in Xml -->
 ## 👇 Use This In XML
 - BottomAppBar
 - BottomNavigationView
 - Floating Action Button
 
+<!-- Screenshots -->
 ## 📸 Screenshots
-
 <p align="center">
   <img src="https://user-images.githubusercontent.com/79931228/214650589-b57fafc4-c34d-455d-a52f-7899ced57260.png"/>
   <img src="https://user-images.githubusercontent.com/79931228/214650595-8dc6744e-56c8-44db-a637-432fd2fe942e.png"/> <br>
