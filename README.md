@@ -11,7 +11,7 @@
 
 ## 📸 Screenshots
 
-<p align="left">
+<p align="center">
   <img src="https://user-images.githubusercontent.com/79931228/214650589-b57fafc4-c34d-455d-a52f-7899ced57260.png"/>
   <img src="https://user-images.githubusercontent.com/79931228/214650595-8dc6744e-56c8-44db-a637-432fd2fe942e.png"/> <br>
   <img src="https://user-images.githubusercontent.com/79931228/214650599-e13d43f6-1b0b-47d3-b31b-a19b6f46626b.png"/> 
